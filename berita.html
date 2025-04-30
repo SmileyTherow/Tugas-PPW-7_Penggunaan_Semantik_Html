@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portal Berita Nusantara</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+      header {
+        background-color: #cc0000;
+        color: white;
+        padding: 10px 20px;
+      }
+      nav {
+        background-color: #b30000;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 18px;
+        display: block;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        font-size: 0.9rem;
+      }
+      nav a:hover,
+      nav a:focus {
+        background-color: #800000;
+        outline: none;
+      }
+      main {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 0 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        border-radius: 5px;
+        margin-top: 80px;
+      }
+      h1, h2 {
+        text-align: center;
+        margin-top: 0;
+      }
+      section {
+        margin-bottom: 30px;
+      }
+      article {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+      }
+      article:last-child {
+        border-bottom: none;
+      }
+      article h3 {
+        margin: 0 0 5px 0;
+        font-size: 1.1em;
+      }
+      article a {
+        color: #003366;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      article a:hover,
+      article a:focus {
+        color: #0077cc;
+        outline: none;
+      }
+      footer {
+        text-align: center;
+        padding: 15px 10px;
+        background-color: #111;
+        color: white;
+        margin-top: 40px;
+        font-size: 0.9em;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Portal Berita Nusantara</h1>
+    </header>
+    <nav aria-label="Navigasi utama">
+      <a href="berita.html" aria-current="page">Home</a>
+      <a href="#nasional">Nasional</a>
+      <a href="#internasional">Internasional</a>
+      <a href="#ekonomi">Ekonomi</a>
+      <a href="#olahraga">Olahraga</a>
+      <a href="#teknologi">Teknologi</a>
+      <a href="#hiburan">Hiburan</a>
+      <a href="#gaya-hidup">Gaya Hidup</a>
+    </nav>
+    <main>
+      <section id="berita-terbaru" aria-labelledby="berita-terbaru-heading">
+        <h2 id="berita-terbaru-heading">Berita Terbaru</h2>
+        <article>
+          <h3><a href="berita1.html">Bos BPJPH Sebut Halal Simbol Kesehatan: Bukan Urusan Islam Semata</a></h3>
+          <p>Badan Penyelenggara Jaminan Produk Halal (BPJPH) menekankan sertifikat halal bukan hanya soal agama, tetapi juga jaminan kesehatan.</p>
+        </article>
+        <article>
+          <h3><a href="berita2.html">Israel Serbu Masjid Ibrahimi yang Dihormati Yahudi, Muslim, Kristiani</a></h3>
+          <p>Sekelompok besar tentara Israel menyerbu Masjid Ibrahimi di Kota Hebron, Tepi Barat, wilayah Palestina yang diduduki Tel Aviv, pada Rabu (30/4).</p>
+        </article>
+        <article>
+          <h3><a href="berita3.html">Program Demul Kirim Siswa Nakal ke Barak Militer Berlaku Mulai 2 Mei</a></h3>
+          <p>Gubernur Jawa Barat Dedi Mulyadi menyatakan program mengirim siswa bermasalah ke barak TNI Polri mulai berlaku pada 2 Mei, Jumat lusa.</p>
+        </article>
+      </section>
+      <section id="nasional" aria-labelledby="nasional-heading">
+        <h2 id="nasional-heading">Berita Nasional</h2>
+        <article>
+          <h3><a href="nasional1.html">Pramono Minta Satpol PP Awasi Pegawai Tak Pakai Transportasi Umum</a></h3>
+          <p>Gubernur DKI Jakarta Pramono Anung meminta Satpol PP untuk mengawasi pegawai yang menggunakan kendaraan pribadi untuk berangkat kerja pada hari ini, Rabu (30/4).</p>
+        </article>
+        <article>
+          <h3><a href="nasional.html">Sempat Mangkir, 2 Anggota DPR Kembali Dipanggil KPK di Kasus CSR BI</a></h3>
+          <p>Komisi Pemberantasan Korupsi (KPK) memanggil Wakil Ketua Komisi XI DPR Fraksi NasDem Fauzi Amro dan Anggota Komisi XI DPR Charles Meikyansah pada Rabu (30/4).</p>
+        </article>
+      </section>
+      <section id="internasional" aria-labelledby="internasional-heading">
+        <h2 id="internasional-heading">Berita Internasional</h2>
+        <article>
+          <h3><a href="internasional.html">Pakistan Siaga, Sebut India Bakal Lancarkan Serangan dalam 36 Jam</a></h3>
+          <p>Menteri Informasi dan Penyiaran Pakistan Attaullah Tarar mengatakan dalam 24-36 jam, India akan melancarkan serangan militer ke Pakistan.</p>
+        </article>
+      </section>
+      <section id="ekonomi" aria-labelledby="ekonomi-heading">
+        <h2 id="ekonomi-heading">Berita Ekonomi</h2>
+        <article>
+          <h3><a href="ekonomi.html">UPS PHK 20 Ribu Karyawan di AS Buntut Kiriman Amazon Susut</a></h3>
+          <p>Perusahaan logistik global United Parcel Service (UPS) mengumumkan akan melakukan pemutusan hubungan kerja (PHK) terhadap 20 ribu pekerja dan menutup 73 fasilitas operasional.</p>
+        </article>
+      </section>
+      <section id="olahraga" aria-labelledby="olahraga-heading">
+        <h2 id="olahraga-heading">Berita Olahraga</h2>
+        <article>
+          <h3><a href="olahraga.html">Jejak Pelatih Timnas Indonesia Patrick Kluivert di Barcelona vs Inter</a></h3>
+          <p>Pelatih Timnas Indonesia Patrick Kluivert pernah meninggalkan jejak dalam laga Barcelona vs Inter Milan di Liga Champions.</p>
+        </article>
+      </section>
+      <section id="teknologi" aria-labelledby="teknologi-heading">
+        <h2 id="teknologi-heading">Berita Teknologi</h2>
+        <article>
+          <h3><a href="teknologi.html">Perusahaan PTT Seluler Asal Singapura Ekspansi ke RI, Ini Misinya</a></h3>
+          <p>Smartcom, penyedia solusi Push-to-Talk (PTT) mission-critical berbasis jaringan seluler resmi melakukan ekspansi ke Indonesia.</p>
+        </article>
+      </section>
+      <section id="hiburan" aria-labelledby="hiburan-heading">
+        <h2 id="hiburan-heading">Berita Hiburan</h2>
+        <article>
+          <h3><a href="hiburan.html">Sinopsis Perang Kota, Cinta Segitiga Selimuti Misi Habisi Kolonial</a></h3>
+          <p>Mouly Surya akhirnya merilis film Indonesia terbaru berjudul Perang Kota.</p>
+        </article>
+      </section>
+      <section id="gaya-hidup" aria-labelledby="gaya-hidup-heading">
+        <h2 id="gaya-hidup-heading">Gaya Hidup</h2>
+        <article>
+          <h3><a href="gayahidup.html">BPOM Temukan Obat Herbal dan Pelangsing Berbahaya, Ini Daftarnya</a></h3>
+          <p>Badan Pengawas Obat dan Makanan (BPOM) RI merilis daftar obat herbal dan pelangsing berbahaya.</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      &copy; 2024 Portal Berita Nusantara. Semua hak cipta dilindungi.
+    </footer>
+  </body>
+</html>
